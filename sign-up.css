@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(background.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+.container{
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: aliceblue 0.7;
+    width: 75%;
+    height: 100%;
+    padding: 1.5rem;
+    /* background-image: url(koala.avif); */
+    /* background-size:contain; */
+    
+
+    /* background-size: auto ; */
+    
+    margin: 1rem auto;
+}
+.sign-up-elements{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.input{
+    width: 250px;
+    background-color: rgb(188, 186, 186 , 0.1);
+    height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px;
+    
+    color: grey;
+}
+
+
+.element{
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}
+.btn button{
+    appearance: none; 
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin: 1rem auto auto auto;
+    color:aliceblue;
+    width: 8rem;
+    text-align: center;
+
+    padding: 4px 8px 4px 8px;
+    background-color: green;
+}
+
+    /* .contact input{width: 300px;
+} */
+ 
+.container small{
+    margin-left: 1rem;
+}
+.butt{
+    text-align: center;
+}
+.heading{
+    margin-bottom: 1.5rem;
+
+}
+.container h2 {
+    /* margin-bottom: 1rem; */
+    margin-left: 1rem;
+    /* line-height: 2rem; */
+    /* text-align: center; */
+}
+
+.emps{
+    width: 410px;
+}
+@media(max-width: 620px){
+    .input{
+        width:80%;
+    }
+     
+}
